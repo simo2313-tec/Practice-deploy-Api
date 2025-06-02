@@ -47,8 +47,8 @@ app.post("/payment/create", async(req, res) => {
     }
 });
 
-app.listen(2300, (err) =>{
+app.listen(3000, (err) =>{
     if(err) throw err
-    console.log("Amazon Server Running on Port: 2300, http://localhost:2300");
+    console.log("Amazon Server Running on Port: 3000, http://localhost:3000");
 })
 // exports.api = onRequest(app);
